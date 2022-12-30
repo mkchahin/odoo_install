@@ -25,11 +25,11 @@ INSTALL_WKHTMLTOPDF="True"
 OE_PORT="8069"
 # Choose the Odoo version which you want to install. For example: 13.0, 12.0, 11.0 or saas-18. When using 'master' the master version will be installed.
 # IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 13.0
-OE_VERSION="14.0"
+OE_VERSION="15.0"
 # Set this to True if you want to install the Odoo enterprise version!
 IS_ENTERPRISE="False"
 # Set this to True if you want to install Nginx!
-INSTALL_NGINX="False"
+INSTALL_NGINX="True"
 # Set the superadmin password - if GENERATE_RANDOM_PASSWORD is set to "True" we will automatically generate a random password, otherwise we use this one
 OE_SUPERADMIN="admin"
 # Set to "True" to generate a random password, "False" to use the variable in OE_SUPERADMIN
@@ -47,8 +47,8 @@ LONGPOLLING_PORT="8072"
 ## https://github.com/odoo/odoo/wiki/Wkhtmltopdf ):
 ## https://www.odoo.com/documentation/12.0/setup/install.html#debian-ubuntu
 
-WKHTMLTOX_X64=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.buster_amd64.deb
-WKHTMLTOX_X32=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.buster_i386.deb
+WKHTMLTOX_X64=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bullseye_amd64.deb
+WKHTMLTOX_X32=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bullseye_i386.deb
 #--------------------------------------------------
 # Update Server
 #--------------------------------------------------
